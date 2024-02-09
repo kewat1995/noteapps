@@ -65,6 +65,9 @@
     outline: none;
     background-color: #fff;
 }
+.input-box:focus{
+    cursor: default;
+}
 .notes-container img {
     position: absolute;
     top: 10px;

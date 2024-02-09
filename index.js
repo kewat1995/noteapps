@@ -18,7 +18,7 @@ noteContainer.addEventListener("click", (e) => {
   if (e.target.tagName === "IMG") {
     e.target.parentElement.remove();
     updateStorage();
-    saveData(); 
+   
     
   } else if (e.target.tagName === "P") {
     notes = document.querySelectorAll(".input-box");
